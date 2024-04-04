@@ -1,3 +1,5 @@
+
+
 .active{
     color: #2b2bed !important;
 }
@@ -26,6 +28,9 @@
     background: rgb(20, 142, 69) !important;
     border: none !important;
 }
+.facultad-button:focus{
+    box-shadow: 0 0 0 0.2rem #2b2bed !important ;
+}
 .facultad-image{
     width: 244  px ;
     height: 295px;
@@ -51,6 +56,9 @@
 .perfil-social-media:hover , .social-media:hover{
     background-color: rgb(20, 142, 69) !important;
     color: #fff !important;
+}
+.perfil-social-media:focus, .social-media:focus{
+    box-shadow: 0 0 0 0.2rem rgb(20, 142, 69) !important ;
 }
 .carousel-numbers{
     border: none !important;
@@ -87,4 +95,38 @@
 	box-sizing: border-box;
 	display: block;
 }
-
+.about-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.about-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    text-align: left;
+    gap: 30px;
+}
+.about-button{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.about-image{
+    display: flex;
+    justify-content: center;
+}
+@media  screen and (width < 841px) {
+        .about-container{
+            display: flex;
+            flex-direction: column;
+        }
+        .about-content{
+            margin: 30px;
+            text-align: center;
+        }
+        .about-button{
+            justify-content: center;
+        }
+}
