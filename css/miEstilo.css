@@ -1,0 +1,13 @@
+.active{
+    color: #2b2bed !important;
+}
+.nav-item:hover, .nav-link:hover{
+    color: #2b2bed !important;
+}
+.logo{
+    color: #2b2bed;
+}
+.barra{
+    position: fixed !important;
+    z-index: 1000;
+}
