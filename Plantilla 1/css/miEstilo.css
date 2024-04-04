@@ -43,13 +43,14 @@
 .perfil-text{
     background: #2b2bed !important;
 }
-.perfil-social-media{
+.perfil-social-media , .social-media{
     color: black !important ;
     background-color: #2b2bed !important;
     border: none !important;
 }
-.perfil-social-media:hover{
+.perfil-social-media:hover , .social-media:hover{
     background-color: rgb(20, 142, 69) !important;
+    color: #fff !important;
 }
 .carousel-numbers{
     border: none !important;
@@ -71,5 +72,8 @@
     .perfil-image{
         height: 500px !important;
     }
+}
+.footer-container{
+    background-color: rgb(38, 38, 86) !important;
 }
 
