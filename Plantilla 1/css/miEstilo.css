@@ -24,3 +24,35 @@
     color: #2b2bed !important;
     background-color: #a0a0e371 !important;
 }
+.perfil-image{
+    background-color: white;
+    width: 255px !important;
+    height: 322.59px !important;
+}
+.perfil-text{
+    background: #2b2bed !important;
+}
+.perfil-social-media{
+    color: black !important ;
+    background-color: #2b2bed !important;
+    border: none !important;
+}
+.perfil-social-media:hover{
+    background-color: rgb(20, 142, 69) !important;
+}
+.carousel-numbers{
+    border: none !important;
+    background-color: rgb(20, 142, 69) !important;
+    color: black;
+    text-transform: uppercase;
+}
+.back-to-top-button{
+    background: #2b2bed !important;
+    border-radius: 15px !important;
+    border: none !important;
+}
+.back-to-top-button:focus{
+  background-color: #2b2bed !important;
+  border-color: rgb(20, 142, 69)!important;
+  box-shadow: 0 0 0 0.2rem rgb(20, 142, 69) !important ;
+}
