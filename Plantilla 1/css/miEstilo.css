@@ -7,8 +7,18 @@
 .logo{
     color: #2b2bed;
 }
+.top-bar{
+    background: #a0a0e371;
+}
+.top-bar-item{
+    color: black;
+}
+.top-bar-item:hover{
+    color: rgb(20, 142, 69);
+}
 .barra{
-    position: fixed !important;
+    position: sticky !important;
+    top: 0%;
     z-index: 1000;
 }
 .facultad-button{
@@ -55,4 +65,16 @@
   background-color: #2b2bed !important;
   border-color: rgb(20, 142, 69)!important;
   box-shadow: 0 0 0 0.2rem rgb(20, 142, 69) !important ;
+}
+/*Footer animado*/
+
+.animated-footer{
+    position: absolute;
+		bottom: 0%;
+		left: 0%;
+    width: 100%;
+    height: 500%;
+		box-sizing: border-box;
+		display: block;
+
 }

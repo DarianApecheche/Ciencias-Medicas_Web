@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>SPA Center - Beauty & Spa HTML Template</title>
+    <title>UCCM</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -24,7 +24,6 @@
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!--CSS-->
-   
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -34,7 +33,7 @@
 <body>
     <!-- Topbar Start -->
     <div class="container-fluid bg-light d-none d-lg-block ">
-        <div class="row py-2 px-lg-5">
+        <div class="row py-2 px-lg-5 top-bar">
             <div class="col-lg-6 text-left mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center">
                     <small><i class="fa fa-phone-alt mr-2"></i>+012 345 6789</small>
@@ -45,19 +44,19 @@
             <div class="col-lg-6 text-right">
                 <div class="d-inline-flex align-items-center">
                     <a class="text-primary px-2" href="">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-facebook-f top-bar-item"></i>
                     </a>
                     <a class="text-primary px-2" href="">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-twitter top-bar-item"></i>
                     </a>
                     <a class="text-primary px-2" href="">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-linkedin-in top-bar-item"></i>
                     </a>
                     <a class="text-primary px-2" href="">
-                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-instagram top-bar-item"></i>
                     </a>
                     <a class="text-primary pl-2" href="">
-                        <i class="fab fa-youtube"></i>
+                        <i class="fab fa-youtube top-bar-item"></i>
                     </a>
                 </div>
             </div>
@@ -67,7 +66,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid p-0 barra sticky-top">
+    <div class="container-fluid p-0 barra">
         <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5">
             <a href="index.html" class="navbar-brand ml-lg-3">
                 <h1 class="logo">UCMM</h1>
@@ -99,16 +98,16 @@
     <div class="container-fluid p-0 mb-5 pb-5">
         <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#header-carousel" data-slide-to="1"></li>
-                <li data-target="#header-carousel" data-slide-to="2"></li>
+                <li class="carousel-numbers" data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li class="carousel-numbers" data-target="#header-carousel" data-slide-to="1"></li>
+                <li class="carousel-numbers" data-target="#header-carousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item position-relative active" style="min-height: 100vh;">
                     <img class="position-absolute w-100 h-100" src="img/UCCM-Entrada.jpg" style="object-fit: cover;">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">Bienvenidos a:</h6>
+                            <h6 class="text-white text-uppercase mb-3 animate__animated animate__fadeInDown" style="letter-spacing: 3px;">Bienvenido a:</h6>
                             <h3 class="display-3 text-capitalize text-white mb-3">Universidad de Ciencias Médicas de Matanzas</h3>
                             <p class="mx-md-5 px-5">Centro de altos estudios para la formación de profesionales de la salud.</p>
                         </div>
@@ -367,8 +366,60 @@
 
 
     <!-- Footer Start -->
-    <div class="footer container-fluid position-relative bg-dark py-5" style="margin-top: 90px;">
+    <div class="footer container-fluid position-relative bg-dark py-5 footer-animated" style="margin-top: 90px;">
         <div class="container pt-5">
+            <!--ANIMATED-FOOTER-START-->
+            <svg class="animated-footer" version="1.1" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		<defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:rgba(130, 158, 249, 0.06)"></stop>
+				<stop offset="50%" style="stop-color:rgba(76, 190, 255, 0.6)"></stop>
+				<stop offset="100%" style="stop-color:rgba(115, 209, 72, 0.2)"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		</defs>
+		<g>
+			<use xlink:href='#wave' opacity=".3">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="10s"
+          calcMode="spline"
+          values="270 230; -334 180; 270 230"
+          keyTimes="0; .5; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacity=".6">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="8s"
+          calcMode="spline"
+          values="-270 230;243 220;-270 230"
+          keyTimes="0; .6; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacty=".9">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="6s"
+          calcMode="spline"
+          values="0 230;-140 200;0 230"
+          keyTimes="0; .4; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+		</g>
+	</svg>
+            <!--ANIMATED-FOOTER-END-->
             <div class="row">
                 <div class="col-lg-6 pr-lg-5 mb-5">
                     <a href="index.html" class="navbar-brand">
@@ -436,6 +487,9 @@
         </div>
     </div>
     <!-- Footer End -->
+
+<!--ANIMATED-FOOTER-->
+
 
 
     <!-- Back to Top -->
