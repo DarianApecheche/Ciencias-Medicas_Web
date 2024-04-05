@@ -144,3 +144,6 @@
 .color-copyright {
     color: #84b6f4 !important;
 }
+.copyright-footer{
+    display: flex !important;
+}
