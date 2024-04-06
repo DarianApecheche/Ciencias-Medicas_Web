@@ -1,0 +1,95 @@
+
+.topbar i {
+    color: #84b6f4;
+    transition: ease-out;
+    transition: 0.5s;
+}
+
+.topbar .redes i:hover {
+    color: #005187;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+
+.navbar {
+    position:  relative !important;
+}
+
+.navbar .active {
+    color: #005187 !important;
+}
+
+.navbar .nav-item {
+    transition: ease-out;
+    transition: 0.5s;
+}
+
+.navbar .nav-item:hover {
+    color: #84b6f4 !important;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+
+.navbar .dropdown-toggle {
+    transition: ease-out;
+    transition: 0.5s;
+}
+
+.navbar .dropdown-toggle:hover{
+    color: #84b6f4 !important;
+    transition: ease;
+    transition-duration: 0.3s;
+}
+
+.about h6 {
+    color: #005187 !important;
+}
+
+.about-area {
+    background-color: #b2dafa !important;
+}
+
+.feauture .marcos{
+    background-color: #005187;
+}
+
+.feauture .row {
+    display: flex !important;
+    justify-content: space-evenly;
+    text-align: justify;
+    gap: 0px;
+}
+.facultad-text{
+    text-align: center !important;
+}
+.topic-header{
+    color: #005187 !important;
+}
+.docencia-icon{
+    color: #005187 !important;
+    border:2px solid #005187 !important;
+}
+.docencia-card:hover > .docencia-icon{
+    background-color: #005187;
+    color: #fff !important;
+}
+.facultad-image{
+    height:  218.74px !important;
+    width: 349.99px !important;
+}
+.rectoria-icon{
+    color: #fff !important;
+}
+.rectoria-box-icon{
+    border-color: #005187;
+}
+.rectoria-box-icon:hover{
+    background-color: #005187 !important;
+    border-color: #fff !important;
+}
+.rectoria-image{
+    width: 255px;
+    height: 255px;
+}
+
+
